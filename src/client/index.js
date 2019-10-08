@@ -33,7 +33,7 @@ $(document).ready(() => {
       });
     });
 
-    calendarLoad();
+    // calendarLoad();
     $(window).on('action:ajaxify.end', calendarLoad);
   });
 });
