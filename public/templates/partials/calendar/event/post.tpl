@@ -1,5 +1,5 @@
 <!-- plugin-calendar-event-wrapper:start |||{event.name}||| -->
-<div class="plugin-calendar-event panel panel-success" data-translated="false">
+<div class="plugin-calendar-event panel panel-success" data-translated="false" style="display: none;">
   <div class="plugin-calendar-event-name panel-heading">
     {event.name}
   </div>
