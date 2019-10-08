@@ -20,6 +20,7 @@ import getOccurencesOfRepetition from '../repetition';
   );
   assert.deepEqual(occurences, [
     {
+      day: '2016-11-09',
       startDate: 1478576134000 + (1 * 24 * 60 * 60 * 1000),
       endDate: 1478576134000 + (1 * 24 * 60 * 60 * 1000) + (2 * 60 * 60 * 1000),
       repeats: {

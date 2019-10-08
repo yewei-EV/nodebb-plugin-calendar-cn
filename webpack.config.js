@@ -24,6 +24,7 @@ module.exports = (env, argv) => {
   ]);
 
   return {
+    performance: { hints: false },
     context: __dirname,
     devtool: prod ? 'source-map' : 'inline-source-map',
     entry: {
