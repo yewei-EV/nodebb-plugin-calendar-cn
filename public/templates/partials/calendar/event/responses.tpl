@@ -22,7 +22,7 @@
       </button>
     </div>
 
-    <div class="panel-group plugin-calendar-event-responses-lists" data-loaded="false">
+    <div class="panel-group plugin-calendar-event-responses-lists-remove" data-loaded="false">
       <div class="panel panel-default closed">
         <div class="panel-heading">
           <a role="button" href="#"
