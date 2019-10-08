@@ -50,10 +50,10 @@ const translateEvents = () => {
       $events.each((i, elem) => {
         const el = $(elem);
         el.attr('data-translated', 'true');
-        setTimeout(() => el.show(), 100);
         translator.translateInPlace(elem).then(() => {
           el.find('.plugin-calendar-time-date-view')
             .attr('title', (x, val) => val.replace('<br>', ' | '));
+          el.show();
         });
       });
     });
